@@ -1,0 +1,74 @@
+#navbar {
+  flex-direction: column;
+}
+
+.webname h2 {
+  font-size: 0.8rem;
+}
+
+#navbar ul li {
+  font-size: 0.8rem;
+}
+
+/* Home Portion */
+#Home h2 {
+  font-size: 1.7rem;
+  padding: 0.4rem 0.5rem;
+}
+
+#Home p {
+  font-size: 0.8rem;
+}
+
+/* About Portion */
+#About h2 {
+  font-size: 1.5rem;
+}
+
+#About .box img {
+
+  height: 29vh;
+  width: 18vw;
+}
+
+#About .box p {
+  font-size: 0.9rem;
+}
+
+#interset {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Cirtiicate Part */
+.c1 img {
+  height: 34.8vh;
+  padding: 0.5vw;
+  border-radius: 4.3vh;
+}
+
+.c2 img {
+  height: 34.8vh;
+  padding: 0.5vw;
+  border-radius: 4.3vh;
+}
+
+.s1 {
+
+  height: 1.3rem;
+  background-color: red;
+  padding: 0.7rem;
+  border-radius: 1.32vh;
+  border: 0.5vh solid black;
+  text-align: center;
+  font-size: 0.7rem;
+  color: white;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+}
+
+/* fotter part */
+.fot {
+  font-size: 1.1rem;
+}

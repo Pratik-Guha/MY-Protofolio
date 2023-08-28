@@ -1,0 +1,262 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0.8vw;
+}
+
+#navbar::before {
+  content: "";
+  background-color: rgb(61, 76, 16);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 1;
+
+
+}
+
+.n1 {
+  display: flex;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 2.1vw;
+  font-weight: 600;
+
+}
+
+.webname h2 {
+  color: rgb(113 209 123);
+  font-size: 2.4rem;
+}
+
+#navbar ul li {
+
+  list-style: none;
+  padding: 1.2vw;
+}
+
+#navbar ul li a {
+  display: block;
+  text-decoration: none;
+  color: rgb(146, 77, 77);
+  padding: 1.2rem .5rem;
+
+}
+
+#navbar ul li a:hover {
+  color: white;
+}
+
+#Home {
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  padding: 4vw;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  color: black;
+  height: 53vh;
+
+}
+
+.center {
+  text-align: center;
+}
+
+/* Home Portion */
+#Home h2 {
+  font-size: 3.8rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  justify-content: center;
+  padding: 1.4rem 1.2rem;
+}
+
+#Home::before {
+  content: "";
+  background: url('/Screenshot\ \(547\).png') no-repeat center center/cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.7;
+
+}
+
+#Home p {
+  color: white;
+  font-size: 1.8rem;
+  text-align: center;
+  font-family: 'Pangolin', cursive;
+
+
+}
+
+/* middle portion */
+.h-primary {
+  text-align: center;
+  font-size: 2.8rem;
+  padding: 2.2rem 2.4rem;
+}
+
+#About {
+  height: 110vh;
+}
+
+#About h2:hover {
+  color: rgb(215, 73, 73);
+}
+
+#interset {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#interset a:hover {
+  color: rgb(255, 0, 230);
+}
+
+.box {
+  text-align: center;
+
+  height: 50vh;
+  width: 25vw;
+}
+
+#About .box a {
+  flex-direction: row;
+  text-decoration: none;
+}
+
+#About .box p {
+  font-size: 1.7rem;
+}
+
+#About .box img {
+
+  height: 33vh;
+  width: 17vw;
+}
+
+/* Cirtification Part */
+#cirtficate {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#Cirtifications h2:hover {
+  color: blueviolet;
+}
+
+.c1 img {
+  height: 58.8vh;
+  padding: 1.2vw;
+  border-radius: 6.3vh;
+}
+
+
+
+.s1 {
+  display: flex;
+  margin: auto;
+  height: 3rem;
+  background-color: red;
+  padding: 1.7rem;
+  border-radius: 2vh;
+  border: 1.2vh solid black;
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+}
+
+#tcs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.c2 img {
+  height: 58.8vh;
+  padding: 1.2vw;
+  border-radius: 6.3vh;
+}
+
+
+
+/*contact part*/
+#contact {
+  position: relative;
+
+}
+
+#contact::before {
+  content: "";
+  background: url('/ss.jpg') no-repeat center center/cover;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 0.5;
+  z-index: -1;
+
+}
+
+#contact-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5vw;
+}
+
+#contact-box input,
+#contact-box textarea {
+  width: 100%;
+  padding: .6rem;
+  border-radius: 1.8vh;
+  font-size: 1.2rem;
+  border: 1.2vh solid rgb(153, 130, 238);
+}
+
+#contact-box form {
+  width: 40%;
+}
+
+#contact-box label {
+  font-size: 1.3rem;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* Fotter part */
+.fot {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  height: 3.8rem;
+
+  font-size: 1.6rem;
+}
